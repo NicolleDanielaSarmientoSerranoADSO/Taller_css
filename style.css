@@ -3,41 +3,11 @@ body{
     background-color: rgb(211, 169, 250);
     text-align: center;
 }
-.caja1{
-    width: 50%;
-    padding: 20px;
-    background-color: rgb(29, 48, 221);
-    transition: background 0.12s;
-}
-.caja1:hover{
-    padding: 20px;
-    background-color: rgb(94, 164, 226);
-}
-a:link{
-    color: rgb(235, 245, 99);
-}
-a:visited{
-    color: rgba(83, 34, 218, 0.801);
-}
-.caja2{
-    width: 250px;
-    height: 250px;
-    background-color: rgb(32, 7, 90);
-    margin: 25px;
-    margin-left: 32em;
-    transition: all 1s;
-}
-.caja2:active{
-    background-color: rgb(238, 11, 124);
-    padding-left: 105px;
-}
-.input{
-    margin: 25px;
-    background-color: rgb(9, 13, 248);
-    transition: background 0.4s, padding 0.4s;
-}
-.input:focus{
-    background-color: rgb(226, 87, 6);
-    padding: 20px;
-
+.xd img{
+    height: 350px; 
+    width: 350px;
+    border: 2px rgb(202, 24, 122) solid;
+    object-fit: cover ;
+    object-position: -6em;
+    
 }
