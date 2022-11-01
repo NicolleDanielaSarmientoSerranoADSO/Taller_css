@@ -3,26 +3,10 @@ body{
     background-color: rgb(211, 169, 250);
     text-align: center;
 }
-
-.b1{
-    background-color: rgb(245, 209, 90);
-    padding: 2rem;
-    margin-top: 5em;
-    box-sizing: border-box;
-    border-radius: 13px;
-    width: 30%;
-    display: inline;
-    border: 5px dashed black;
-    margin-top: 12em;
-}
-.b2{
-    background-color: rgb(79, 218, 243);
-    padding: 2rem;
-    box-sizing: border-box;
-    border-radius: 13px;
-    width: 30%;
-    display: inline;
-    margin-left: 1.5cm;
-    border: 5px dashed black;
-    margin-top: 12em;
+div{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 5em;
+    background-color: rgb(236, 186, 236);
+    
 }
