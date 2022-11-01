@@ -6,14 +6,29 @@ body{
 
 .div{
     text-align: center;
-    border: 3px  solid black;
+    width: 50%;
+    margin-left: 16em;
+    border: 3px solid rgb(80, 73, 73);
+    border-radius: 15px;
 }
 .x1,.x2,.x3{
-    display: inline-block;
-    width: 10em;
-    height: 2em;
-    border: 3px solid black;
-    margin-left:12em ;
-    text-align: center;
-    background-color: rgb(186, 240, 222);
+    border: 3px solid rgb(80, 70, 70);
+    width: 350px;
+    height: 320px;
+    background-color: rgb(217, 107, 245);
+    border-radius: 15px;
+}
+.x1{
+    overflow: auto;
+    margin-top:20px;
+}
+.x2{
+    overflow: hidden;
+    margin-left: 28em;
+    margin-top:20px;
+}
+.x3{
+    overflow: scroll;
+    margin-right: 28em;
+    margin-top:20px;
 }
