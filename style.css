@@ -3,11 +3,16 @@ body{
     background-color: rgb(211, 169, 250);
     text-align: center;
 }
-.xd img{
-    height: 350px; 
-    width: 350px;
-    border: 2px rgb(202, 24, 122) solid;
-    object-fit: cover ;
-    object-position: -6em;
-    
+.cajaxd{
+    margin: 45px;
+    width: 200px;
+    height: 200px;
+    margin-left:40%;
+    text-align: center;
+    border: 5px solid rgb(235, 23, 122);
+    background-color: rgb(126, 14, 170);
+    cursor: cell;
+}
+.cajaxd:active{
+    cursor: copy;
 }
