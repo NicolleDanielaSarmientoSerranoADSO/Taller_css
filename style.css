@@ -3,20 +3,26 @@ body{
     background-color: rgb(211, 169, 250);
     text-align: center;
 }
-.e_b{
-    display: inline;
-    margin: 36%;
-}
-h1{
-    text-align: center;
-    font-size: 4em;
-}
-p{
-    text-align: center;
-    background-color: aliceblue;
-}
-b{
-    background-color: beige;
-    margin-left: 43%;
 
+.b1{
+    background-color: rgb(245, 209, 90);
+    padding: 2rem;
+    margin-top: 5em;
+    box-sizing: border-box;
+    border-radius: 13px;
+    width: 30%;
+    display: inline;
+    border: 5px dashed black;
+    margin-top: 12em;
+}
+.b2{
+    background-color: rgb(79, 218, 243);
+    padding: 2rem;
+    box-sizing: border-box;
+    border-radius: 13px;
+    width: 30%;
+    display: inline;
+    margin-left: 1.5cm;
+    border: 5px dashed black;
+    margin-top: 12em;
 }
