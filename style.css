@@ -3,17 +3,50 @@ body{
     background-color: rgb(211, 169, 250);
     text-align: center;
 }
-div{
-    border: 2px dashed black;
+h1{
+    font-size: 4em;
+    color: rgb(25, 174, 211);
 }
-.x1{
-    text-align: center;
-    margin-bottom:12px ;
+h2{
+    font-size: 3em;
+    color: aquamarine;
 }
-.x3{
-    width: 150px auto;
-    height: 350px;
-    padding: 12px;
-    
+.x3::first-line{
+    color: rgb(105, 105, 201);
+    font-size: 1cm;
+}
+.x2::first-letter{
+    color: rgb(157, 60, 221);
+    font-size: 1cm;
 
+}
+form{
+    margin: 100px auto;
+    display: block;
+    background-color: rgb(231, 168, 31);
+    padding:30px;
+    width: 50%;
+}
+input{
+    padding: 6px;
+    width: 100%;
+}
+input::placeholder{
+    color: blueviolet;
+    font-size: 1em;
+}
+input::selection{
+    color: rgb(234, 252, 255);
+    background-color: rgb(132, 7, 250);
+}
+b::before{
+    content: "Ay dio mio xd ";
+    color: rgb(92, 168, 21);
+    background-color: rgb(74, 74, 172);
+
+}
+b::after{
+    content: " wenas";
+    color: rgb(146, 10, 10);
+    background-color: rgb(250, 56, 56);
 }
