@@ -4,23 +4,40 @@ body{
     text-align: center;
 }
 
-div{
+.div{
+    border: 2px solid black;
     text-align: center;
-    margin-bottom: 5em;
+    margin: 23px;
 }
-.x1,.x2,.x3,.x4{
-    border-radius: 14px;
-    padding: 2em;
-    width: 100px;
-    height: 50px;
-    display: inline-block;
-    background-color: rgb(140, 58, 187);
-    margin-bottom: 2cm;
+.caja1,.caja2,.caja3,.caja4{
+    border: 3px solid black;
+    height: 450px;
+    width: 450px;
+    margin: 35px auto;
+}
+.caja1{
+    position: static;
+    background-color: rgb(228, 53, 169);
     text-align: center;
+    padding-top: 14em;
 }
-.x1{
-    outline: auto ;
+.caja2{
+    position: relative;
+    left: 45px;
+    background-color: rgb(252, 177, 227);
+    text-align: center;
+    padding-top: 14em;
 }
-.x4{
-    outline: auto;
+.caja3{
+    position: fixed;
+    top:  28em;
+    left: 28em;
+    background-color: rgb(238, 136, 52);
+}
+.caja4{
+    position: sticky;
+    background-color: rgb(238, 199, 139);
+    opacity: 65%;
+    top:  29em;
+    left: 28em;
 }
