@@ -5,39 +5,15 @@ body{
 }
 
 .div{
-    border: 2px solid black;
     text-align: center;
-    margin: 23px;
+    border: 3px  solid black;
 }
-.caja1,.caja2,.caja3,.caja4{
+.x1,.x2,.x3{
+    display: inline-block;
+    width: 10em;
+    height: 2em;
     border: 3px solid black;
-    height: 450px;
-    width: 450px;
-    margin: 35px auto;
-}
-.caja1{
-    position: static;
-    background-color: rgb(228, 53, 169);
+    margin-left:12em ;
     text-align: center;
-    padding-top: 14em;
-}
-.caja2{
-    position: relative;
-    left: 45px;
-    background-color: rgb(252, 177, 227);
-    text-align: center;
-    padding-top: 14em;
-}
-.caja3{
-    position: fixed;
-    top:  28em;
-    left: 28em;
-    background-color: rgb(238, 136, 52);
-}
-.caja4{
-    position: sticky;
-    background-color: rgb(238, 199, 139);
-    opacity: 65%;
-    top:  29em;
-    left: 28em;
+    background-color: rgb(186, 240, 222);
 }
