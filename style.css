@@ -3,18 +3,11 @@ body{
     background-color: rgb(211, 169, 250);
     text-align: center;
 }
-.p{
-    color: rgb(197, 21, 9);
-}
-.p{
-    color: blue;
-    padding-bottom: 25;
-}
 
-#p1{
-    color: blue;
+.contact-form__input{
+    color: rgb(235, 14, 14);
 }
-
-.p1{
-    color: red;
+div{
+    margin-left: 45%;
+    margin-right: 60%;
 }
