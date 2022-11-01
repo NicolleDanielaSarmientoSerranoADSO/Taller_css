@@ -3,10 +3,16 @@ body{
     background-color: rgb(211, 169, 250);
     text-align: center;
 }
+
+b{
+    border-radius: 16px;
+    padding: 2em;
+    width: 30%;
+    border: 1.5px solid black ;
+    background-color: rgb(83, 20, 141);
+    box-shadow: 2px 2px 2em black;
+    margin: 2px 36em;
+}
 div{
-    border: 2px solid black;
-    padding: 10px;
-    margin: 5em;
-    background-color: rgb(236, 186, 236);
-    
+    margin-bottom: 5em;
 }
