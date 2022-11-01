@@ -3,32 +3,17 @@ body{
     background-color: rgb(211, 169, 250);
     text-align: center;
 }
-
-.div{
-    text-align: center;
-    width: 50%;
-    margin-left: 16em;
-    border: 3px solid rgb(80, 73, 73);
-    border-radius: 15px;
-}
-.x1,.x2,.x3{
-    border: 3px solid rgb(80, 70, 70);
-    width: 350px;
-    height: 320px;
-    background-color: rgb(217, 107, 245);
-    border-radius: 15px;
+div{
+    border: 2px dashed black;
 }
 .x1{
-    overflow: auto;
-    margin-top:20px;
-}
-.x2{
-    overflow: hidden;
-    margin-left: 28em;
-    margin-top:20px;
+    text-align: center;
+    margin-bottom:12px ;
 }
 .x3{
-    overflow: scroll;
-    margin-right: 28em;
-    margin-top:20px;
+    width: 150px auto;
+    height: 350px;
+    padding: 12px;
+    
+
 }
