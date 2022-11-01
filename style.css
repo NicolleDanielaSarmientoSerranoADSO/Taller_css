@@ -3,11 +3,20 @@ body{
     background-color: rgb(211, 169, 250);
     text-align: center;
 }
+.e_b{
+    display: inline;
+    margin: 36%;
+}
 h1{
-    font-size: 6em;
-    color: rgb(4, 4, 121);
     text-align: center;
+    font-size: 4em;
 }
 p{
-    font-size: 1cm;
+    text-align: center;
+    background-color: aliceblue;
+}
+b{
+    background-color: beige;
+    margin-left: 43%;
+
 }
