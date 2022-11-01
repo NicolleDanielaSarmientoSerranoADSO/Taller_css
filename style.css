@@ -5,11 +5,12 @@ body{
 }
 h1{
     font-size: 6em;
-
-}
-h2{
-    font-size: 1.5cm;
+    text-align: center;
+    color: rgb(74, 184, 228);
+    font-family: 'Times New Roman', Times, serif;
 }
 p{
-    font-size: 27px;
+    font-size: 1cm;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
