@@ -1,26 +1,20 @@
-*{
-    color: rgb(194, 20, 165);
-    text-align: center;
-}
-h2{
-    color: rgb(194, 65, 65);
-}
-.class_h2{
-    color: rgb(69, 88, 194);
-}
-#h2{
-    color: rgb(224, 147, 75);
-}
 
-[xd="xdd"]{
-    color: rgb(235, 221, 35);
-}
-.h2-class p{
-    color: rgb(235, 187, 125);
-}
-b:hover{
-    color: rgb(121, 230, 154);
-}
 body{
     background-color: rgb(211, 169, 250);
+    text-align: center;
+}
+.p{
+    color: rgb(197, 21, 9);
+}
+.p{
+    color: blue;
+    padding-bottom: 25;
+}
+
+#p1{
+    color: blue;
+}
+
+.p1{
+    color: red;
 }
