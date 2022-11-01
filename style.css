@@ -3,50 +3,41 @@ body{
     background-color: rgb(211, 169, 250);
     text-align: center;
 }
-h1{
-    font-size: 4em;
-    color: rgb(25, 174, 211);
-}
-h2{
-    font-size: 3em;
-    color: aquamarine;
-}
-.x3::first-line{
-    color: rgb(105, 105, 201);
-    font-size: 1cm;
-}
-.x2::first-letter{
-    color: rgb(157, 60, 221);
-    font-size: 1cm;
-
-}
-form{
-    margin: 100px auto;
-    display: block;
-    background-color: rgb(231, 168, 31);
-    padding:30px;
+.caja1{
     width: 50%;
+    padding: 20px;
+    background-color: rgb(29, 48, 221);
+    transition: background 0.12s;
 }
-input{
-    padding: 6px;
-    width: 100%;
+.caja1:hover{
+    padding: 20px;
+    background-color: rgb(94, 164, 226);
 }
-input::placeholder{
-    color: blueviolet;
-    font-size: 1em;
+a:link{
+    color: rgb(235, 245, 99);
 }
-input::selection{
-    color: rgb(234, 252, 255);
-    background-color: rgb(132, 7, 250);
+a:visited{
+    color: rgba(83, 34, 218, 0.801);
 }
-b::before{
-    content: "Ay dio mio xd ";
-    color: rgb(92, 168, 21);
-    background-color: rgb(74, 74, 172);
+.caja2{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(32, 7, 90);
+    margin: 25px;
+    margin-left: 32em;
+    transition: all 1s;
+}
+.caja2:active{
+    background-color: rgb(238, 11, 124);
+    padding-left: 105px;
+}
+.input{
+    margin: 25px;
+    background-color: rgb(9, 13, 248);
+    transition: background 0.4s, padding 0.4s;
+}
+.input:focus{
+    background-color: rgb(226, 87, 6);
+    padding: 20px;
 
-}
-b::after{
-    content: " wenas";
-    color: rgb(146, 10, 10);
-    background-color: rgb(250, 56, 56);
 }
